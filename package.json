@@ -1,11 +1,25 @@
 {
-  "name": "sti",
+  "name": "sti-frontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My first Frontend Application",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlssonKarin/sti-frontend-lesson.git"
   },
   "author": "Karin Olsson",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlssonKarin/sti-frontend-lesson/issues"
+  },
+  "homepage": "https://github.com/OlssonKarin/sti-frontend-lesson#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "healthcheck": "^0.1.3",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
 }
